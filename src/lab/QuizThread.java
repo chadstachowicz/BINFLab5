@@ -42,7 +42,6 @@ public class QuizThread implements Runnable {
 						e.printStackTrace();
 					}
 				} else if(isAnswered == true) {
-					System.out.println("sfseerw");
 				    String aminoAcid = ui.answerField.getText();
 				    //check if the amino acid entered is correct (downcase them both so case doesn't matter)
 				    if(!(aminoAcid.toLowerCase()).equals(shortAmino.toLowerCase()))
